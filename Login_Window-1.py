@@ -22,6 +22,7 @@ L2 = Label(root,text="Password :",bg="lightyellow",fg="indian red",width=15,reli
 L2.grid(row=1,column=0)
 E2 = Entry(root,bg="lightgreen",width=15,relief=SUNKEN)
 E2.grid(row=1,column =1)
+E2.config(show="*")
 B1 = Button(root,text="Submit",command=SubMit,width=15)
 B1.grid(row=2,column=0)
 B2 = Button(root,text="Quit",command=root.quit,width=15)
